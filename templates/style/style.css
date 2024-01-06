@@ -1,0 +1,424 @@
+
+
+/*
+What is To be DONE?
+	
+	1. font placed in a folder.
+
+*/
+
+
+@font-face {
+   font-family:MANIFESTO;
+   src:url('../fonts/MANIFESTO.ttf');
+}
+
+@media only screen and (max-width: 768px) {
+	body{
+		
+		background:red;
+	}
+}
+
+
+/* For DESKTOPS: */
+@media only screen and (min-width: 768px) {	/* For DESKTOPS: */
+    /* For DESKTOPS: */
+
+html{
+	/*static background*/
+	background:url("../images/junction-wp-fin.jpg") no-repeat center center fixed;
+	
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	
+	/*ie solution for above*/
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='.myBackground.jpg', sizingMethod='scale');
+    -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='myBackground.jpg', sizingMethod='scale')";
+    zoom:1;
+}
+
+body{
+	margin:0 0 0 0;
+}
+
+.container{
+	
+}
+
+.header-bar{
+	
+	width:100%;
+	height:70px;
+	background:url("../images/overlay-bg.png");
+}
+
+.header-logo{
+	float:left;
+	width:50%;
+	height:100%;
+	font-family:MANIFESTO;
+	font-size:230%;
+	color:#ffffff;
+	
+	line-height:70px;
+	
+	border-bottom:none;
+}
+
+.header-logo a{
+	text-decoration:none;
+	color:#ffffff;
+}
+
+.header-links{
+	float:right;
+	width:15%;
+	height:100%;
+	font-family:MANIFESTO;
+	font-size:120%;
+	color:#ffffff;
+	
+	line-height:70px;
+	
+	
+	-webkit-transition:background-color 150ms ease-in;
+	-moz-transition:background-color 150ms ease-in;
+	-o-transition:background-color 150ms ease-in;
+	transition:background-color 150ms ease-in;
+	
+	
+	
+}
+
+.header-links:hover{
+	background-color:#b4b4b4;
+}
+
+.header-links a{
+	text-decoration:none;
+	color:#ffffff;
+	
+	
+	-webkit-transition:color 150ms ease-in;
+	-moz-transition:color 150ms ease-in;
+	-o-transition:color 150ms ease-in;
+	transition:color 150ms ease-in;
+	
+}
+
+.header-links a:hover{
+	
+	color:#000000;
+	
+}
+
+.body-content{
+	
+}
+
+
+
+
+
+}
+.readButton{
+	height:120px;
+	width:260px;
+	border-radius:20px;
+	outline:none;
+	color:#D0D69F;
+	background-color:navy;
+	margin-top:50px;
+	font-size:50px;
+	opacity:50%;
+	
+}
+.asd{
+	margin-top:60px;
+	margin-bottom:20px;
+}
+.asd2{
+	
+	margin-top:150px;
+	margin-bottom:20px;
+}
+.mypage{background:BLACK;
+color:white;
+opacity:0.55;
+height:350px;
+width:650px;
+border:5px groove #999;
+border-radius:10px;
+margin-top:100px;
+margin-bottom:110;
+
+}
+/*------------------------------------------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+/* For TABLETS: */
+@media only screen and (min-width: 600px) and (max-width:768px) {	/* For TABLETS: */
+    /* For TABLETS: */
+
+	
+html{
+	/*static background*/
+	background:url("../images/junction-wp-fin.jpg") no-repeat center center fixed;
+	
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	
+	/*ie solution for above*/
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='.myBackground.jpg', sizingMethod='scale');
+    -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='myBackground.jpg', sizingMethod='scale')";
+    zoom:1;
+}
+
+body{
+	margin:0 0 0 0;
+}
+
+.container{
+	
+}
+
+.header-bar{
+
+	width:100%;
+	height:70px;
+	background:url("../images/overlay-bg.png");
+}
+
+.header-logo{
+	float:left;
+	
+	width:30%;
+	height:100%;
+	font-family:MANIFESTO;
+	font-size:200%;
+	color:#ffffff;
+	
+	line-height:70px;
+	
+	border-bottom:none;
+}
+
+.header-logo a{
+	text-decoration:none;
+	color:#ffffff;
+}
+
+.header-links{
+	float:right;
+	width:15%;
+	height:100%;
+	font-family:MANIFESTO;
+	font-size:120%;
+	color:#ffffff;
+	
+	line-height:70px;
+}
+
+.header-links a{
+	text-decoration:none;
+	color:#ffffff;
+}
+
+.body-content{
+	
+}
+
+
+
+
+}
+
+
+
+/*------------------------------------------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------------------------------------------------*/
+
+
+/*------------------------------------------------------------------------------------------------*/
+
+
+/* For MOBILE-PHONES: */
+
+@media only screen and (min-width: 250px) and (max-width:600px) { /* For MOBILE-PHONES: */
+/* For MOBILE-PHONES: */
+
+html{
+	/*static background*/
+	background:url("../images/junction-wp-fin.jpg") no-repeat center center fixed;
+	
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	
+	/*ie solution for above*/
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='.myBackground.jpg', sizingMethod='scale');
+    -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='myBackground.jpg', sizingMethod='scale')";
+    zoom:1;
+}
+
+body{
+	margin:0 0 0 0;
+}
+
+.container{
+	
+}
+
+.header-bar{
+	
+	width:100%;
+	height:140px;
+	background:url("../images/overlay-bg.png");
+}
+
+
+.header-logo{
+	width:100%;
+	height:50%;
+	font-family:MANIFESTO;
+	font-size:200%;
+	color:#ffffff;
+	
+	line-height:70px;
+	
+	border-bottom:1px solid #646464;
+}
+
+.header-logo a{
+	text-decoration:none;
+	color:#ffffff;
+}
+
+.header-links{
+	float:right;
+	width:50%;
+	height:50%;
+	font-family:MANIFESTO;
+	font-size:120%;
+	color:#ffffff;
+	
+	line-height:70px;
+}
+
+.header-links a{
+	text-decoration:none;
+	color:#ffffff;
+}
+
+.body-content{
+	
+}
+
+
+
+
+
+}
+
+
+
+
+/*============================================================
+    Footer
+============================================================*/
+
+
+
+
+#footer {
+    background-color: #121116;
+    padding: 15px 0 35px;
+}
+
+
+.footer-logo {
+    margin-bottom: 30px;
+}
+
+
+.footer-social {
+    margin-bottom: 15px;
+}
+
+
+.footer-social h3 {
+    font-size: 20px;
+    color: #fff;
+    text-transform: uppercase;
+
+    position: relative;
+}
+
+
+.footer-social h3:after {
+  border-bottom: 1px solid #fff;
+  bottom: 0;
+  content: "";
+  display: block;
+  left: 50%;
+ 
+                       margin-left: -65px;
+  position: absolute;
+  width: 130px;
+}
+
+
+.footer-social ul li a {
+  color: #fff;
+  display: block;
+  margin: 0 8px;
+}
+
+
+.footer-social ul li a:hover {
+  color: #00C7FC;
+}
+
+
+.copyright {
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+}
+
+
+.copyright a {
+    color: #00C7FC;
+}
+
+.copyright a:hover {
+    color: #fff;
+}
+
+
+.copyright p {
+
+}
+
+.copyright p:first-child {
+    margin-bottom: 15px;
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,32 @@
+table,th,td{
+	border:1px solid black;
+	text-align:center;
+	
+}
+th{background-color:navy;}
+td:hover{background-color:BLACK;}
+th:hover{background-color:BLACK;}
+.pfimg{height:450px;
+opacity:0.95;
+float:left;
+width:350px;
+border:5px groove #999;
+border-radius:120px;
+margin-left:50px;
+margin-top:50px;
+margin-bottom:30;}
+
+
+.mypage{background:BLACK;
+color:white;
+opacity:0.55;
+float:right;
+height:350px;
+width:650px;
+border:5px groove #999;
+border-radius:10px;
+margin-left:20px;
+margin-top:100px;
+margin-bottom:10;
+margin-right:150;
+}
